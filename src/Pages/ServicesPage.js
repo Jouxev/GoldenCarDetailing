@@ -45,7 +45,7 @@ export const ServicesPage = () => {
           <Left>
           <TitleContainer>
           <Title> Prestations </Title>
-          <Description> La seule chose qui m’importe est de repousser mes limites afin de vous fournir une prestation au-delà de vos attentes! </Description>
+          <Description> {process.env.PUBLIC_URL} La seule chose qui m’importe est de repousser mes limites afin de vous fournir une prestation au-delà de vos attentes! </Description>
         </TitleContainer>
           </Left>
             <Right> { services.map( (item) => (

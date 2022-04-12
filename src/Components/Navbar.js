@@ -47,7 +47,7 @@ export const Navbar = () => {
         <LogoContainer><Logo> <a href="#"> Golden Car Detailing </a></Logo> </LogoContainer>
         <MenuContainer>
            
-            <MenuItem>  <Link to='/'> Accueil</Link></MenuItem>
+            <MenuItem>  <Link to={'/'}> Accueil</Link></MenuItem>
             <MenuItem>  Nos Réalisations  </MenuItem>
             <MenuItem>  <Link to='/services'> Nos Services</Link>  </MenuItem>
             <MenuItem>  Devis </MenuItem>
